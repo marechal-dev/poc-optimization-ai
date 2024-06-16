@@ -1,0 +1,15 @@
+{
+  "name": "poc-maps-api",
+  "version": "0.0.1",
+  "description": "Simple POC for guidance on the LUCIA project",
+  "type": "module",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "node --env-file=.env main.js"
+  },
+  "author": "Pietro Piva Vieira <pietro.developer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "google-auth-library": "^9.11.0"
+  }
+}
